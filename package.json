@@ -1,0 +1,43 @@
+{
+  "name": "hexo-deployer-ftp-kx",
+  "version": "1.0.0",
+  "description": "hexo ftp上传文件",
+  "author": "空巷一人",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/kongxiangyiren/hexo-deployer-ftp-kx#readme",
+  "bugs": {
+    "url": "https://github.com/kongxiangyiren/hexo-deployer-ftp-kx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kongxiangyiren/hexo-deployer-ftp-kx.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  },
+  "keywords": [
+    "hexo",
+    "ftp",
+    "deployer",
+    "stp"
+  ],
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "engines": {
+    "node": ">=16 || 14 >=14.17"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^12.1.0",
+    "@types/hexo": "^3.8.9",
+    "@types/node": "^12.20.55",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ftp-deploy": "^2.4.5"
+  }
+}
