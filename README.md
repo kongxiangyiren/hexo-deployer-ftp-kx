@@ -45,7 +45,7 @@ deploy:
     - '**/*'
   exclude: # 要排除的文件 默认[]
   deleteRemote: false # 是否删除[remoteRoot]下所有文件再上传 默认false
-  forcePasv: true # 强制被动模式(不发送EPSV命令) 默认 true
+  forcePasv: false # 强制被动模式(不发送EPSV命令) 默认 false
   sftp: false # 是否使用sftp 默认false
 ```
 

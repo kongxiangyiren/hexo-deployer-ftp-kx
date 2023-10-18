@@ -41,7 +41,7 @@ hexo.extend.deployer.register('ftp-deploy-kx', args => {
     // delete ALL existing files at destination before uploading, if true
     deleteRemote: args.deleteRemote ?? false,
     // Passive mode is forced (EPSV command is not sent)
-    forcePasv: args.forcePasv ?? true,
+    forcePasv: args.forcePasv ?? false,
     // use sftp or ftp
     sftp: args.sftp ?? false
   };

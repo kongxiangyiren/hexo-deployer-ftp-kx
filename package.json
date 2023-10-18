@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-ftp-kx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hexo ftp上传文件",
   "author": "空巷一人",
   "main": "dist/index.js",
