@@ -1,6 +1,8 @@
 <h1 align="center">Welcome to hexo-deployer-ftp-kx 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://www.npmjs.com/package/hexo-deployer-ftp-kx" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/hexo-deployer-ftp-kx.svg">
+  </a>
   <img src="https://img.shields.io/badge/node-%3E%3D16%20%7C%7C%2014%20%3E%3D14.17-blue.svg" />
   <a href="https://github.com/kongxiangyiren/hexo-deployer-ftp-kx#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
